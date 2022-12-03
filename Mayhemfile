@@ -1,0 +1,6 @@
+project: crc-rs
+target: crc-rs-fuzz
+
+cmds:
+    - cmd: ./crc-rs-fuzz
+      libfuzzer: true
